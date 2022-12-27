@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header';
 import './home.css';
-import home from './../images/home.png'
+import home from './../image/home.png';
 const Home = () => {
   return (
  <div className="home">

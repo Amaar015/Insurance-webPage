@@ -1,5 +1,5 @@
 import './App.css';
-import Feature from './Component/Feature/Feature';
+// import Feature from './Component/Feature/Feature';
 import Home from './Component/Home/Home';
 import Services from './Component/Services/Services';
 
@@ -8,7 +8,7 @@ function App() {
       <>
       <Home/>
       <Services/>
-      <Feature/>
+      {/* <Feature/> */}
       </>
      
   );

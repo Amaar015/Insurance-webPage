@@ -1,8 +1,44 @@
 [
     {
-        "url":"./../images/bank.png",
+        "url":"./images/insure.png",
         "alt":"Abdullah",
+        "name":"Life Insurance",
+        "description":"“We cannot solve problems with the kind of thinking we employed when we came up with them."
+    }
+    ,
+    {
+        "url":"./images/bank.png",
+        "alt":"Amaar Raza",
         "name":"Bank Insurance",
-        "description":"hello friend how your are gone in the world"
+        "description":"It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest"
+    }
+    ,
+    {
+        "url":"./images/life.png",
+        "alt":"Amaar Raza",
+        "name":"Travel Insurance",
+        "description":"Develop success from failures. Discouragement and failure are two of the surest stepping stones to success"
+    }
+    
+    ,
+    {
+        "url":"./images/saving.png",
+        "alt":"Amaar Raza",
+        "name":"Saving accounts",
+        "description":"The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty."
+    }
+    ,
+    {
+        "url":"./images/money.png",
+        "alt":"Amaar Raza",
+        "name":"Banking Insurance",
+        "description":"There are three ways to ultimate success: The first way is to be kind. The second way is to be kind. The third way is to be kind"
+    }
+    ,
+    {
+        "url":"./images/student.png",
+        "alt":"Amaar Raza",
+        "name":"Student Loans",
+        "description":"You learn more from failure than from success. Don’t let it stop you. Failure builds character."
     }
 ]

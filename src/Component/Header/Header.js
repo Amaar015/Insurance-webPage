@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import image from './../images/logo.png';
+import image from './../image/logo.png';
 const Header = () => {
   return (
     <div className="nav">
