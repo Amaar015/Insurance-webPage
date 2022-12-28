@@ -4,6 +4,8 @@
      flex-direction: column;
      align-items: center;
      margin-top:4rem;
+     width: 100%;
+     height: auto;
 }
 .service>p:nth-of-type(2){
     /* width: 50rem; */
@@ -32,6 +34,7 @@
     box-shadow:5px 5px 10px rgba(0,0,0,0.5);
     cursor: pointer;
     transition: all 0.5s linear;
+    border-radius: 20px;
 }
 .box:hover{
     background: var(--pink);
@@ -43,6 +46,9 @@
 .box>h3{
     font-size: 1.4rem;
     color: var(--pink);
+}
+.box:hover>h3{
+    color: var(--white);
 }
 .box>p{
     margin-top:-0.5rem;

@@ -31,3 +31,53 @@ ul>li{
     font-weight: 450;
     cursor: pointer;
 }
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:1270px) {
+      .nav{
+        padding:1rem 4rem ;
+      }   
+}
+
+@media screen and (max-width:1024px) {
+    
+    .nav{
+      padding:1rem 1rem ;
+    }
+    .logo-1{
+        margin-left: 0rem;
+    }   
+}
+
+@media screen and (max-width:855px) {
+    
+.mobile{
+    display:inline-block;
+}
+    .nav > :nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+        
+     }
+
+    .nav>ul{
+    flex-direction: column;
+    background-color: var(--blue);
+    padding: 2rem;
+    top: 4rem;
+}
+}
+
+
+@media screen and (max-width:310px) {
+    
+    .nav{
+        padding:1rem 1rem ;
+      }
+      .nav > :nth-child(2){
+        right:1rem;
+     }
+}

@@ -16,6 +16,7 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
+  /* color: #071b81; */
 }
 ::-webkit-scrollbar{
   display: none;

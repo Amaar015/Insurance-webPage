@@ -6,6 +6,7 @@ const Home = () => {
   return (
  <div className="home">
   <Header/>
+  
    <div className="main">
     <div className="left-home">
       <p>About</p>
@@ -16,14 +17,12 @@ const Home = () => {
         molestiae eveniet dignissimos! Repellendus.
       </p>
       <form action="">
-        {/* <div className="input"> */}
         <input list="logins" placeholder='Login purpose' name="login" id="login"/>
         <datalist id="logins"  >
             <option value="purpose"></option>
             <option value="Vission"></option>
             <option value="Mission"></option> 
         </datalist>
-        {/* </div> */}
         <input type="button" className='btn' value="Continue" />
       </form>
     </div>
