@@ -1,0 +1,40 @@
+.feature{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding:2rem 8rem;
+}
+/* left section feature */
+.f-left{
+    flex:1 1 30;
+}
+.f-left>img{
+    width: 30rem;
+}
+
+/* right section feature */
+.f-right{
+    flex:1 1 30;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.f-right >span{
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+.top{
+    margin-top:-1rem ;
+}
+
+.f-right>p:nth-of-type(2){
+    font-size: 1.2rem;
+    margin-top:0rem;
+}
+
+.partner{
+    display: flex;
+    gap: 2rem;
+    /* justify-content: center; */
+}

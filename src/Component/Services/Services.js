@@ -8,7 +8,6 @@ const Services = () => {
         <h2 className="heading">Find the financial services you need</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Saepe similique laudantium illum error tenetur ab sunt iure, adipisci molestiae,
-        
         </p>
 
         <div className="box_main">
