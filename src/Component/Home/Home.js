@@ -1,13 +1,12 @@
 import React from 'react'
 import Header from '../Header/Header';
 import './home.css';
-import Nav from './../Nav/Nav'
 import home from './../image/home.png';
 const Home = () => {
   return (
  <div className="home">
-  {/* <Header/> */}
-  <Nav/>  
+  <Header/>
+ 
    <div className="main">
     <div className="left-home">
       <p>About</p>

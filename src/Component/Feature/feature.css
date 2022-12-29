@@ -1,67 +1,68 @@
 .feature{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 4rem;     
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;   
+     padding:2rem 8rem;
 }
-/* left section feature */
+
 .f-left{
-    flex:1 1 40rem;
-    padding-top: 5rem;
-  }
+      flex:1 1 20rem;
+}
 .f-left>img{
-   width: 80%;
- 
+    width: 100%;
+    margin-top:5rem;
 }
-
-
-/* right section feature */
 .f-right{
-    flex:1 1 40rem;
+    flex:1 1 25rem;
     display: flex;
-   flex-direction: column;
-   gap:2rem;
+    flex-direction: column;
 }
-.f-right >span{
-
-    font-size: 2.5rem;
-    font-weight: bold;
+.offer{
+    /* margin-top:-8rem ; */
 }
-.top{
-    margin-top:-1rem ;
+.f-right> span{
+    margin-top:1rem;
+    font-size: 3rem;
+    font-weight: 500;
 }
-
-.f-right>p:nth-of-type(2){
-    font-size: 1.2rem;
-    margin-top:0rem;
+.f-right>p:nth-of-type(2){ 
+     font-size:1.3rem;
+     color: rgb(101, 99, 99);
 }
-
 .partner{
     display: flex;
     gap: 2rem;
+    margin-top:1rem;
+}
+.partner>img{
+      width: 4rem;
+      height:4rem;
 }
 
 
-/* mobile responssive feature */
+/* ressponssive feature  */
 
-/* 
 @media screen and (max-width:1024px) {
     .feature{
-        gap: 2rem;
-        padding:2rem 2rem;
-    }           
-    .f-right >span{
-        font-size: 2rem;
-        font-weight:500;
+          padding:2rem 2rem;
+    }            
+    .f-right> span{
+        font-size: 2.5rem;
     }   
 }
-@media screen and (max-width:800px) {
+@media screen  and (max-width:520px){
+    .f-right> span{
+        font-size: 2rem;
+    }   
+}
+
+@media screen  and (max-width:520px){
     .feature{
-        gap: 2rem;
-        padding:2rem 2rem;
-    }
-    .f-left> img{
-        margin-top:4rem;
-     }
-} */
+        padding:2rem 1rem;
+     }            
+
+    .f-right> span{
+        font-size: 1.5rem;
+    }   
+}

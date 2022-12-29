@@ -31,9 +31,9 @@ ul>li{
     font-weight: 450;
     cursor: pointer;
 }
-.mobile{
+.toggle{
     display: none;
-}
+  }
 
 @media screen and (max-width:1270px) {
       .nav{
@@ -53,9 +53,7 @@ ul>li{
 
 @media screen and (max-width:855px) {
     
-.mobile{
-    display:inline-block;
-}
+
     .nav > :nth-child(2){
         position: fixed;
         right: 2rem;
@@ -63,12 +61,38 @@ ul>li{
         
      }
 
-    .nav>ul{
-    flex-direction: column;
-    background-color: var(--blue);
-    padding: 2rem;
-    top: 4rem;
+    .nav> .navbar{
+ display: none;
+    
 }
+.mobile{
+flex-direction: column;
+background-color: var(--blue);
+padding: 2rem;
+border-radius:10px;
+top: 3.7rem;
+right:4rem; 
+transition: all 0.4s linear;
+}
+.mobile> li{
+    margin-top:0.5rem;
+}
+
+
+.toggle{
+   
+    display: block;
+    background-color:var(--blue);
+    border: none;
+    color: #fff;
+    border-radius:10px;
+    padding:0.3rem 0.5rem;
+    font-size: 30px;
+    position: fixed;
+    right: 50px;
+    top: 25px;
+
+  }
 }
 
 

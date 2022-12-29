@@ -11,7 +11,7 @@ const Feature = () => {
                  <img src={image} alt="" />
           </div>
           <div className="f-right">
-          <p className='title'>Offers</p>
+          <p className='title offer'>Offers</p>
           <span>Find top credit card offer </span> 
           <span className='top'>from out partners</span> 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
