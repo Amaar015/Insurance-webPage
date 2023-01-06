@@ -10,8 +10,9 @@
       flex:1 1 20rem;
 }
 .f-left>img{
-    width: 100%;
-    margin-top:5rem;
+    width: 80%;
+    margin-top:2rem;
+    margin-left:2rem;
 }
 .f-right{
     flex:1 1 25rem;
@@ -36,8 +37,8 @@
     margin-top:1rem;
 }
 .partner>img{
-      width: 4rem;
-      height:4rem;
+      width: 8rem;
+      /* height:4rem; */
 }
 
 

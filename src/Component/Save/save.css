@@ -1,0 +1,23 @@
+
+
+.safety{
+    justify-content: space-between;
+    gap:4rem;
+    padding:2rem 13rem;
+}
+.t-safety{
+    align-items: flex-start;
+    font-weight: bold;
+    margin-bottom:-0.4rem;
+}
+
+.s-left{
+    display: flex;
+    flex-direction: column;
+}
+.s-left> span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+

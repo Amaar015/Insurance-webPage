@@ -1,9 +1,9 @@
 import React from 'react'
 import './feature.css';
-import image from './../image/img.png'
-import adidas from './../image/adidas.png';
-import nb from './../image/nb.png';
-import nike from './../image/nike.png'
+import image from './../image/insure.png'
+import logo1 from './../image/logo-6.png';
+import logo2 from './../image/logo-5.png';
+import logo3 from './../image/logo-4.png'
 const Feature = () => {
   return (
          <div className="feature">
@@ -18,9 +18,9 @@ const Feature = () => {
            Saepe similique laudantium illum error tenetur ab sunt iure, adipisci molestiae,
            </p>
            <div className="partner">
-             <img src={adidas} alt="" />
-             <img src={nb} alt="" />
-             <img src={nike} alt="" />
+             <img src={logo1} alt="" />
+             <img src={logo2} alt="" />
+             <img src={logo3} alt="" />
              </div> 
           </div>
          </div>

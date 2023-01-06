@@ -21,12 +21,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
     margin-top:2rem;
 }
 
 img{
-    width: 6rem;
+    width: 8rem;
+    /* height:4rem; */
 }
 
 .btn-partner{
